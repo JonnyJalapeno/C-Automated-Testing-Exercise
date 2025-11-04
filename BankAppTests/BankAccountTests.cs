@@ -1,12 +1,9 @@
-using System;
-using System.Security.Principal;
-using System.Linq;
-using NUnit.Framework;
 using BankApp;
 
 namespace BankAppTests
 {
     //Tests for BankAccount and BankAccountList classes
+    [TestFixture]
     public class BankAccountTests
     {
         private BankAccountList accounts;
